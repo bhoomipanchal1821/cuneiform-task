@@ -1,0 +1,74 @@
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+h3.nav_logo {
+  margin-left: 2rem;
+  width: 40%;
+}
+.nav_link {
+  width: 60%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+button.request_demo {
+  border: 1px solid black;
+  height: 2rem;
+  width: 10rem;
+  background: inherit;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+button.start_free {
+  border: none;
+  color: white;
+  height: 2rem;
+  width: 10rem;
+  background: #176ae5;
+  border-radius: 20px;
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  a {
+    width: 100%;
+    position: relative;
+    left: 4rem;
+  }
+  .navbar {
+    display: inline-block;
+    margin-left: -2rem;
+  }
+  button.request_demo {
+    top: 20.6rem;
+    position: absolute;
+    left: 14rem;
+  }
+  .nav_link {
+    margin-left: 3rem;
+  }
+  h3.nav_logo {
+    margin-left: 13.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  .nav_link {width: 56%;overflow-x: hidden;}
+
+}

@@ -1,0 +1,197 @@
+.img_class {
+  text-align: center;
+  margin-top: 5rem;
+}
+p.sub_header {
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 29rem;
+  line-height: 27px;
+}
+form {
+  text-align: center;
+  margin-top: 3rem;
+}
+input[type="email"] {
+  height: 2.2rem;
+  width: 19rem;
+  border-radius: 40px;
+  border: 1px solid #2f2f30;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 1598px;
+}
+button.button_input {
+  position: absolute;
+  right: 47.7rem;
+  height: 2.4rem;
+  border-radius: 40px;
+  width: 7.1rem;
+  border: none;
+  background: #176ae5;
+  color: white;
+}
+img.main_header_img {
+  margin-top: 3rem;
+}
+.container {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 480px;
+  background-color: white;
+  height: 112px;
+  z-index: 3;
+  border-radius: 4px;
+}
+img.card_img {
+  width: 18%;
+  margin-left: 2rem;
+}
+p.card_info {
+  width: 67%;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+p.card_info_second {
+  float: right;
+  font-size: 13px;
+  margin-right: 7.6rem;
+  color: #2f2f30b2;
+}
+
+.card_main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.card_first {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 440px;
+  background-color: white;
+  height: 112px;
+  position: absolute;
+  top: 83.5rem;
+  z-index: 1;
+  border-radius: 4px;
+}
+.card_second {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 420px;
+  background-color: white;
+  height: 112px;
+  position: absolute;
+  top: 84.5rem;
+  border-radius: 4px;
+}
+.subject {
+  text-align: center;
+  position: relative;
+  top: 5rem;
+  color: #2f2f30b2;
+}
+.brands {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+}
+img.img_bamboo {
+  margin-left: 1rem;
+}
+img.img_agora {
+  margin-left: 1rem;
+}
+img.img_spotify {
+  margin-left: 1rem;
+}
+img.img_anglo {
+  margin-left: 1rem;
+}
+img.img_meero {
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .img_class {
+    width: 27rem;
+}
+  img.responsive_img {
+    width: 31rem;
+  }
+  button.button_input {
+    right: 0;
+    left: 13.9rem;
+    top: 41.2rem;
+  }
+  img.main_header_img {
+    width: 26rem;
+  }
+
+  form {
+    margin-left: 0rem;
+  }
+  p.sub_header {
+    margin-left: 2rem;
+    width: 23rem;
+    font-size: 12px;
+  }
+  .subject {
+    left: 2rem;
+  }
+  .card_first {
+    top: 56.8rem;
+    width: 240px;
+    margin-left: 2rem;
+  }
+  .card_second {
+    top: 57.8rem;
+    width: 230px;
+    margin-left: 2rem;
+  }
+  
+  .main {
+    height: 50rem;
+  }
+  .container {
+    width: 260px;
+    margin-left: 2rem;
+  }
+  p.card_info_second {
+    margin-right: 0;
+    width: 173px;
+  }
+  .brands {
+    width: 10%;
+    left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 768px) {
+  p.sub_header {
+    width: 77%;
+    margin-left: 6rem;
+  }
+  button.button_input {
+    right: 15.5rem;
+  }
+  .card_first {
+    top: 48.5rem;
+  }
+  .card_second {
+    top: 49.5rem;
+  }
+  img.main_img {
+    position: absolute;
+    right: 0;
+    width: 30rem;
+  }
+  .main {
+    height: 50rem;
+  }
+  form{margin-right: 13rem;}
+}

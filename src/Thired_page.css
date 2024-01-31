@@ -1,0 +1,43 @@
+.main_thired {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+h2.thired_header {
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+p.sub_header_thired {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+.header_thired {
+  width: 100%;
+  position: absolute;
+  float: left;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  float: left;
+  background-color: #f1f1f1;
+  width: 8rem;
+  height: 11rem;
+  position: relative;
+  top: 12rem;
+  margin: 1rem;
+}
+.row {
+  float: left;
+}
+
+
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .card{left: 5.3rem;}
+  .main_thired{height: 90rem;}
+  .header_thired{margin-left: 3rem;}
+}
